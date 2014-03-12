@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2633627218D0E4970033BC76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2633627118D0E4970033BC76 /* Foundation.framework */; };
+		2633627418D0E4970033BC76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2633627318D0E4970033BC76 /* CoreGraphics.framework */; };
+		2633627618D0E4970033BC76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2633627518D0E4970033BC76 /* UIKit.framework */; };
+		2633627C18D0E4970033BC76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2633627A18D0E4970033BC76 /* InfoPlist.strings */; };
+		2633627E18D0E4970033BC76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2633627D18D0E4970033BC76 /* main.m */; };
+		2633628218D0E4970033BC76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2633628118D0E4970033BC76 /* AppDelegate.m */; };
+		2633628518D0E4970033BC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2633628318D0E4970033BC76 /* Main.storyboard */; };
+		2633628818D0E4970033BC76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2633628718D0E4970033BC76 /* ViewController.m */; };
+		2633628A18D0E4970033BC76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2633628918D0E4970033BC76 /* Images.xcassets */; };
+		2633629118D0E4970033BC76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2633629018D0E4970033BC76 /* XCTest.framework */; };
+		2633629218D0E4970033BC76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2633627118D0E4970033BC76 /* Foundation.framework */; };
+		2633629318D0E4970033BC76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2633627518D0E4970033BC76 /* UIKit.framework */; };
+		2633629B18D0E4970033BC76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2633629918D0E4970033BC76 /* InfoPlist.strings */; };
+		2633629D18D0E4970033BC76 /* MySafariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2633629C18D0E4970033BC76 /* MySafariTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2633629418D0E4970033BC76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2633626618D0E4970033BC76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2633626D18D0E4970033BC76;
+			remoteInfo = MySafari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2633626E18D0E4970033BC76 /* MySafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2633627118D0E4970033BC76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2633627318D0E4970033BC76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2633627518D0E4970033BC76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2633627918D0E4970033BC76 /* MySafari-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySafari-Info.plist"; sourceTree = "<group>"; };
+		2633627B18D0E4970033BC76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2633627D18D0E4970033BC76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2633627F18D0E4970033BC76 /* MySafari-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySafari-Prefix.pch"; sourceTree = "<group>"; };
+		2633628018D0E4970033BC76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2633628118D0E4970033BC76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2633628418D0E4970033BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2633628618D0E4970033BC76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2633628718D0E4970033BC76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2633628918D0E4970033BC76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2633628F18D0E4970033BC76 /* MySafariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySafariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2633629018D0E4970033BC76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2633629818D0E4970033BC76 /* MySafariTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySafariTests-Info.plist"; sourceTree = "<group>"; };
+		2633629A18D0E4970033BC76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2633629C18D0E4970033BC76 /* MySafariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySafariTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2633626B18D0E4970033BC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2633627418D0E4970033BC76 /* CoreGraphics.framework in Frameworks */,
+				2633627618D0E4970033BC76 /* UIKit.framework in Frameworks */,
+				2633627218D0E4970033BC76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2633628C18D0E4970033BC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2633629118D0E4970033BC76 /* XCTest.framework in Frameworks */,
+				2633629318D0E4970033BC76 /* UIKit.framework in Frameworks */,
+				2633629218D0E4970033BC76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2633626518D0E4970033BC76 = {
+			isa = PBXGroup;
+			children = (
+				2633627718D0E4970033BC76 /* MySafari */,
+				2633629618D0E4970033BC76 /* MySafariTests */,
+				2633627018D0E4970033BC76 /* Frameworks */,
+				2633626F18D0E4970033BC76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2633626F18D0E4970033BC76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2633626E18D0E4970033BC76 /* MySafari.app */,
+				2633628F18D0E4970033BC76 /* MySafariTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2633627018D0E4970033BC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2633627118D0E4970033BC76 /* Foundation.framework */,
+				2633627318D0E4970033BC76 /* CoreGraphics.framework */,
+				2633627518D0E4970033BC76 /* UIKit.framework */,
+				2633629018D0E4970033BC76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2633627718D0E4970033BC76 /* MySafari */ = {
+			isa = PBXGroup;
+			children = (
+				2633628018D0E4970033BC76 /* AppDelegate.h */,
+				2633628118D0E4970033BC76 /* AppDelegate.m */,
+				2633628318D0E4970033BC76 /* Main.storyboard */,
+				2633628618D0E4970033BC76 /* ViewController.h */,
+				2633628718D0E4970033BC76 /* ViewController.m */,
+				2633628918D0E4970033BC76 /* Images.xcassets */,
+				2633627818D0E4970033BC76 /* Supporting Files */,
+			);
+			path = MySafari;
+			sourceTree = "<group>";
+		};
+		2633627818D0E4970033BC76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2633627918D0E4970033BC76 /* MySafari-Info.plist */,
+				2633627A18D0E4970033BC76 /* InfoPlist.strings */,
+				2633627D18D0E4970033BC76 /* main.m */,
+				2633627F18D0E4970033BC76 /* MySafari-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2633629618D0E4970033BC76 /* MySafariTests */ = {
+			isa = PBXGroup;
+			children = (
+				2633629C18D0E4970033BC76 /* MySafariTests.m */,
+				2633629718D0E4970033BC76 /* Supporting Files */,
+			);
+			path = MySafariTests;
+			sourceTree = "<group>";
+		};
+		2633629718D0E4970033BC76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2633629818D0E4970033BC76 /* MySafariTests-Info.plist */,
+				2633629918D0E4970033BC76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2633626D18D0E4970033BC76 /* MySafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263362A018D0E4970033BC76 /* Build configuration list for PBXNativeTarget "MySafari" */;
+			buildPhases = (
+				2633626A18D0E4970033BC76 /* Sources */,
+				2633626B18D0E4970033BC76 /* Frameworks */,
+				2633626C18D0E4970033BC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySafari;
+			productName = MySafari;
+			productReference = 2633626E18D0E4970033BC76 /* MySafari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2633628E18D0E4970033BC76 /* MySafariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263362A318D0E4970033BC76 /* Build configuration list for PBXNativeTarget "MySafariTests" */;
+			buildPhases = (
+				2633628B18D0E4970033BC76 /* Sources */,
+				2633628C18D0E4970033BC76 /* Frameworks */,
+				2633628D18D0E4970033BC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2633629518D0E4970033BC76 /* PBXTargetDependency */,
+			);
+			name = MySafariTests;
+			productName = MySafariTests;
+			productReference = 2633628F18D0E4970033BC76 /* MySafariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2633626618D0E4970033BC76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Manas Pradhan";
+				TargetAttributes = {
+					2633628E18D0E4970033BC76 = {
+						TestTargetID = 2633626D18D0E4970033BC76;
+					};
+				};
+			};
+			buildConfigurationList = 2633626918D0E4970033BC76 /* Build configuration list for PBXProject "MySafari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2633626518D0E4970033BC76;
+			productRefGroup = 2633626F18D0E4970033BC76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2633626D18D0E4970033BC76 /* MySafari */,
+				2633628E18D0E4970033BC76 /* MySafariTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2633626C18D0E4970033BC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2633628A18D0E4970033BC76 /* Images.xcassets in Resources */,
+				2633627C18D0E4970033BC76 /* InfoPlist.strings in Resources */,
+				2633628518D0E4970033BC76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2633628D18D0E4970033BC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2633629B18D0E4970033BC76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2633626A18D0E4970033BC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2633628818D0E4970033BC76 /* ViewController.m in Sources */,
+				2633628218D0E4970033BC76 /* AppDelegate.m in Sources */,
+				2633627E18D0E4970033BC76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2633628B18D0E4970033BC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2633629D18D0E4970033BC76 /* MySafariTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2633629518D0E4970033BC76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2633626D18D0E4970033BC76 /* MySafari */;
+			targetProxy = 2633629418D0E4970033BC76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2633627A18D0E4970033BC76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2633627B18D0E4970033BC76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2633628318D0E4970033BC76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2633628418D0E4970033BC76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2633629918D0E4970033BC76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2633629A18D0E4970033BC76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2633629E18D0E4970033BC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2633629F18D0E4970033BC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		263362A118D0E4970033BC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySafari/MySafari-Prefix.pch";
+				INFOPLIST_FILE = "MySafari/MySafari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		263362A218D0E4970033BC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySafari/MySafari-Prefix.pch";
+				INFOPLIST_FILE = "MySafari/MySafari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		263362A418D0E4970033BC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySafari.app/MySafari";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySafari/MySafari-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MySafariTests/MySafariTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		263362A518D0E4970033BC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySafari.app/MySafari";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySafari/MySafari-Prefix.pch";
+				INFOPLIST_FILE = "MySafariTests/MySafariTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2633626918D0E4970033BC76 /* Build configuration list for PBXProject "MySafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2633629E18D0E4970033BC76 /* Debug */,
+				2633629F18D0E4970033BC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263362A018D0E4970033BC76 /* Build configuration list for PBXNativeTarget "MySafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263362A118D0E4970033BC76 /* Debug */,
+				263362A218D0E4970033BC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		263362A318D0E4970033BC76 /* Build configuration list for PBXNativeTarget "MySafariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263362A418D0E4970033BC76 /* Debug */,
+				263362A518D0E4970033BC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2633626618D0E4970033BC76 /* Project object */;
+}
